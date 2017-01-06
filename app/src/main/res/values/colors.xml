@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="top1">#37474F</color>
+    <color name="top2">#45555c</color>
+    <color name="colorAccent">#1287c4</color>
+    <color name="colorSpinner">#ffffff</color>
+    <color name="red">#cd201f</color>
+</resources>

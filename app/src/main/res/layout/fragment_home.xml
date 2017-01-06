@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll"
+    android:fillViewport="true"
+    android:background="@color/top2">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCar"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#99adb7"
+            android:drawableTop="@drawable/car"
+            android:paddingTop="40dp"
+            android:text="@string/car"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnBus"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#90A4AE"
+            android:drawableTop="@drawable/bus"
+            android:paddingTop="40dp"
+            android:text="@string/bus"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSubway"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#78909C"
+            android:drawableTop="@drawable/subway"
+            android:paddingTop="40dp"
+            android:text="@string/subway"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnWork"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#607D8B"
+            android:drawableTop="@drawable/work"
+            android:paddingTop="40dp"
+            android:text="@string/work"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnStudy"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#546E7A"
+            android:drawableTop="@drawable/study"
+            android:paddingTop="40dp"
+            android:text="@string/study"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnTeach"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#455A64"
+            android:drawableTop="@drawable/teach"
+            android:paddingTop="40dp"
+            android:text="@string/teach"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRead"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#395563"
+            android:drawableTop="@drawable/read"
+            android:paddingTop="40dp"
+            android:text="@string/read"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRelax"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#2f4450"
+            android:drawableTop="@drawable/relax"
+            android:paddingTop="40dp"
+            android:text="@string/relax"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSleep"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#47545b"
+            android:drawableTop="@drawable/sleep"
+            android:paddingTop="40dp"
+            android:text="@string/sleep"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnSport"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#3b4f59"
+            android:drawableTop="@drawable/sport"
+            android:paddingTop="40dp"
+            android:text="@string/sport"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRun"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#4b6471"
+            android:drawableTop="@drawable/run"
+            android:paddingTop="40dp"
+            android:text="@string/run"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnWalk"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#485860"
+            android:drawableTop="@drawable/walk"
+            android:paddingTop="40dp"
+            android:text="@string/walk"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnChat"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#49585c"
+            android:drawableTop="@drawable/chat"
+            android:paddingTop="40dp"
+            android:text="@string/chat"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnCook"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#3a4e58"
+            android:drawableTop="@drawable/cook"
+            android:paddingTop="40dp"
+            android:text="@string/cook"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMeet"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#3f606c"
+            android:drawableTop="@drawable/meet"
+            android:paddingTop="40dp"
+            android:text="@string/meet"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnMakeup"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#354c58"
+            android:drawableTop="@drawable/makeup"
+            android:paddingTop="40dp"
+            android:text="@string/makeup"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEat"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#4a6e79"
+            android:drawableTop="@drawable/eat"
+            android:paddingTop="40dp"
+            android:text="@string/eat"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnShop"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#394f59"
+            android:drawableTop="@drawable/shop"
+            android:paddingTop="40dp"
+            android:text="@string/shop"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAirplane"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#39545e"
+            android:drawableTop="@drawable/airplane"
+            android:paddingTop="40dp"
+            android:text="@string/airplane"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnTravel"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.5"
+            android:background="#2e3e46"
+            android:drawableTop="@drawable/travel"
+            android:paddingTop="40dp"
+            android:text="@string/travel"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>

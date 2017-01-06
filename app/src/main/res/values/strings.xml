@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Start and Stop</string>
+
+    <!--Titles-->
+    <string name="titleHomeScreen">Start &amp; Stop</string>
+    <string name="titleStatistics">Statistics</string>
+    <string name="titleSettings">Settings</string>
+    <string name="titleAbout">About</string>
+
+    <!--Progress Dialog-->
+    <string name="dialogWait">Please wait...</string>
+
+    <!--Navigation-->
+    <string name="navHomeScreen">Home Screen</string>
+    <string name="navStatistics">Statistics</string>
+    <string name="navSettings">Settings</string>
+    <string name="navAbout">About</string>
+    <string name="navNote">Your time is more valuable</string>
+
+    <!--About-->
+    <string name="aboutNote">You can click to my name and open my social media profile in your app or browser</string>
+
+    <!--Settings-->
+    <string name="settingsSound">Sound</string>
+    <string name="settingsVibrate">Vibrate</string>
+    <string name="settingsNotification">Show Notification</string>
+    <string name="settingsLanguage">Language</string>
+
+    <!--Statistics-->
+    <string name="statDay">Day</string>
+    <string name="statMonth">Month</string>
+    <string name="statDate">Date</string>
+
+    <!--Home Screen-->
+    <!--Buttons name-->
+    <string name="car">Car</string>
+    <string name="bus">Bus</string>
+    <string name="subway">Subway</string>
+    <string name="work">Work</string>
+    <string name="study">Study</string>
+    <string name="teach">Teach</string>
+    <string name="read">Read</string>
+    <string name="relax">Relax</string>
+    <string name="sleep">Sleep</string>
+    <string name="sport">Sport</string>
+    <string name="run">Run</string>
+    <string name="walk">Walk</string>
+    <string name="chat">Chat</string>
+    <string name="cook">Cook</string>
+    <string name="meet">Meet</string>
+    <string name="makeup">Makeup</string>
+    <string name="eat">Eat</string>
+    <string name="shop">Shop</string>
+    <string name="airplane">Airplane</string>
+    <string name="travel">Travel</string>
+
+    <!--Alert-->
+    <string name="alertStartMessage">Do you want to start?</string>
+    <string name="alertStopMessage">Do you want to stop?</string>
+    <string name="alertYes">Yes</string>
+    <string name="alertNo">No</string>
+    <string name="alertAddNote">Add Note</string>
+    <string name="alertSave">Save</string>
+    <string name="alertCancel">Cancel</string>
+    <string name="alertDelete">Delete</string>
+    <string name="alertDeleteMessage">Are you sure?</string>
+    <string name="alertShowNote">Note</string>
+
+    <!--Toast-->
+    <string name="toastStart">Time Started</string>
+    <string name="toastStop">Time Stopped</string>
+    <string name="toastResult">Result: </string>
+    <string name="toastMinute">minutes</string>
+
+    <!--Back Button-->
+    <string name="back">Back</string>
+
+    <string name="start">Start</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="banner_code">ca-app-pub-9191798616379630/9075815109</string>
+
+</resources>

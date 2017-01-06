@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/top1"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <Space
+        android:id="@+id/spacer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize" />
+
+    <TextView
+        android:id="@+id/sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spacer"
+        android:layout_marginTop="20dp"
+        android:text="@string/settingsSound"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/switchSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_alignBaseline="@+id/sound"
+        android:layout_alignBottom="@+id/sound"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spacer" />
+
+    <TextView
+        android:id="@+id/vibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sound"
+        android:layout_marginTop="20dp"
+        android:text="@string/settingsVibrate"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/switchVibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_alignBaseline="@+id/vibrate"
+        android:layout_alignBottom="@+id/vibrate"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/switchSound" />
+
+
+    <TextView
+        android:id="@+id/notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vibrate"
+        android:layout_marginTop="20dp"
+        android:text="@string/settingsNotification"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/switchNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_alignBaseline="@+id/notification"
+        android:layout_alignBottom="@+id/notification"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/switchVibrate" />
+
+    <Button
+        android:id="@+id/settingBtnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorAccent"
+        android:text="@string/back"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+</RelativeLayout>

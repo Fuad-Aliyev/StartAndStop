@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeScreen"
+            android:icon="@drawable/home"
+            android:title="@string/navHomeScreen" />
+        <item
+            android:id="@+id/statistics"
+            android:icon="@drawable/statistics"
+            android:title="@string/navStatistics" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="@string/navSettings" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="@string/navAbout" />
+    </group>
+
+</menu>
