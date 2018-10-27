@@ -35,14 +35,17 @@ public class Data {
         return buttons;
     }
 
+    #Get Colors
     public String[] getColors() {
         return colors;
     }
 
+    #Get Names
     public String[] getNames() {
         return names;
     }
 
+    #Get IDs
     public int[] getIds(){
         return ids;
     }
